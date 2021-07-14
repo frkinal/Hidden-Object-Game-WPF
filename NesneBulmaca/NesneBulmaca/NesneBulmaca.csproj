@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="51.png" />
+    <None Remove="52.png" />
+    <None Remove="girl_clock_wall_144783_1920x1080.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="51.png" />
+    <Resource Include="52.png" />
+    <Resource Include="girl_clock_wall_144783_1920x1080.jpg" />
+  </ItemGroup>
+
+</Project>

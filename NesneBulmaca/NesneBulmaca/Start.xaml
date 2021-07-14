@@ -1,0 +1,42 @@
+﻿<Window x:Class="NesneBulmaca.Start"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NesneBulmaca"
+        mc:Ignorable="d"
+        Title="Start" Height="541" Width="717" Loaded="Window_Loaded" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="520*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\inalf\source\repos\NesneBulmaca\Images\girl_clock_wall_144783_1920x1080.jpg"/>
+        </Grid.Background>
+        <WrapPanel Margin="0,25,0,79" Grid.Row="1">
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\1.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\2.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\3.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\4.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\5.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\6.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\7.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\8.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\9.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\10.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\11.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\12.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\13.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\14.png"/>
+            <Image Width="70" Height="70" Margin="30" Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\15.png"/>
+        </WrapPanel>
+        <Button Content="Tamam" HorizontalAlignment="Left" Margin="544,462,0,0" VerticalAlignment="Top" Height="39" Width="158" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="Black" Grid.Row="1" Click="Button_Click"/>
+        <Label x:Name="TimerLabel" Content="25" FontFamily="Segoe UI" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="52,465,558,0" VerticalAlignment="Top" Height="36" Grid.Row="1"/>
+        <Label x:Name="baslik" Content="Bulunacak Nesneler" FontFamily="Segoe UI" FontSize="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="114,10,114,0" VerticalAlignment="Top" Height="45" Grid.RowSpan="2"/>
+        <Label x:Name="text" Content="Saniye Sonra Oyun Baslayacaktir." FontFamily="Segoe UI" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="174,462,173,0" VerticalAlignment="Top" Height="36" Grid.Row="1"/>
+
+
+
+    </Grid>
+</Window>

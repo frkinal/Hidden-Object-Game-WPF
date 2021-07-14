@@ -1,0 +1,42 @@
+﻿<Window x:Class="NesneBulmaca.StartGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NesneBulmaca"
+        mc:Ignorable="d"
+        Title="StartGame" Height="578" Width="1361" WindowStyle="ThreeDBorderWindow" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\inalf\source\repos\NesneBulmaca\Images\girl_clock_wall_144783_1920x1080.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="C:\Users\inalf\source\repos\NesneBulmaca\Images\-ho-2-library.jpg" Margin="-1,-136,1,-123" RenderTransformOrigin="0.5,0.5" MouseUp="Image_MouseUp"/>
+        <Label Content="Kalan Hak" FontSize="20" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="5,10,2,0" Height="60"/>
+        <Label Content="Bulunan Nesne" FontSize="20" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="2,143,3,0" Height="55"/>
+        <Label Content="Skor" FontSize="20" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="7,281,-3,0" Height="55"/>
+        <Label x:Name="lblKalanHak" Content="20" FontSize="20" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="7,76,-1,0" Height="47"/>
+        <Label x:Name="lblBulunanNesne" Content="0" FontSize="20" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="8,210,-1,0" Height="60"/>
+        <Label x:Name="lblSkor" Content="0" FontSize="20" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="10,346,-2,0" Height="50"/>
+        <Button Content="Kapat" FontSize="20" HorizontalAlignment="Center" Margin="0,416,0,0" VerticalAlignment="Top" Height="58" Width="339" Background="{x:Null}" BorderBrush="{x:Null}" Click="Button_Click" Grid.Column="1"/>
+        <Button x:Name="btn1" Content="Button" HorizontalAlignment="Left" Margin="923,184,0,0" VerticalAlignment="Top" Height="94" Width="66" Click="btn1_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Visibility="Visible" Opacity="0"/>
+        <Button x:Name="btn2" Content="Button" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="44" Width="54" Click="btn2_Click" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Opacity="0"/>
+        <Button x:Name="btn3" Content="Button" HorizontalAlignment="Left" Margin="81,51,0,0" VerticalAlignment="Top" Height="91" Width="52" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn3_Click" Opacity="0"/>
+        <Button x:Name="btn4" Content="Button" HorizontalAlignment="Left" Height="64" Margin="784,402,0,0" VerticalAlignment="Top" Width="32" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn4_Click" Opacity="0"/>
+        <Button x:Name="btn5" Content="Button" HorizontalAlignment="Left" Margin="47,307,0,0" VerticalAlignment="Top" Height="39" Width="42" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn5_Click" Opacity="0"/>
+        <Button x:Name="btn6" Content="Button" HorizontalAlignment="Left" Height="48" Margin="133,51,0,0" VerticalAlignment="Top" Width="28" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn6_Click" Opacity="0"/>
+        <Button x:Name="btn7" Content="Button" HorizontalAlignment="Left" Height="29" Margin="830,508,0,0" VerticalAlignment="Top" Width="34" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn7_Click" Opacity="0"/>
+        <Button x:Name="btn8" Content="Button" HorizontalAlignment="Left" Height="39" Margin="271,453,0,0" VerticalAlignment="Top" Width="49" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn8_Click" Opacity="0"/>
+        <Button x:Name="btn9" Content="Button" HorizontalAlignment="Left" Height="26" Margin="452,353,0,0" VerticalAlignment="Top" Width="62" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn9_Click" Opacity="0"/>
+        <Button x:Name="btn10" Content="Button" HorizontalAlignment="Left" Height="72" Margin="652,245,0,0" VerticalAlignment="Top" Width="28" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn10_Click" Opacity="0"/>
+        <Button x:Name="btn11" Content="Button" HorizontalAlignment="Left" Height="32" Margin="491,511,0,0" VerticalAlignment="Top" Width="46" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn11_Click" Opacity="0"/>
+        <Button x:Name="btn12" Content="Button" HorizontalAlignment="Left" Height="42" Margin="882,424,0,0" VerticalAlignment="Top" Width="57" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn12_Click" Opacity="0"/>
+        <Button x:Name="btn13" Content="Button" HorizontalAlignment="Left" Margin="882,193,0,0" VerticalAlignment="Top" Height="47" Width="36" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn13_Click" Opacity="0"/>
+        <Button x:Name="btn14" Content="Button" HorizontalAlignment="Center" Height="37" Margin="0,165,0,0" VerticalAlignment="Top" Width="54" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="{x:Null}" Click="btn14_Click" Opacity="0"/>
+        <Button x:Name="btn15" Content="Button" HorizontalAlignment="Left" Height="28" Margin="483,114,0,0" VerticalAlignment="Top" Width="31" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="btn15_Click" Opacity="0"/>
+
+    </Grid>
+</Window>
